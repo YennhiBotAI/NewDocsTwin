@@ -81,8 +81,104 @@ Từ phân tích sơ bộ, tôi thấy các thông tin API quan trọng:
 - Tổ chức lại cấu trúc file
 - Tối ưu hóa cho việc phát triển và bảo trì
 
-## Khuyến nghị
-1. **Chuyển đổi sang Markdown**: Dễ chỉnh sửa và version control
-2. **Tổ chức lại cấu trúc**: Theo thứ tự logic và dễ navigate
-3. **Tách assets**: Tách riêng hình ảnh và styling
-4. **Tạo navigation**: Tệp index hoặc sidebar để dễ điều hướng
+## Phương án Documentation Sites
+
+### Phương án 1: VitePress (Khuyến nghị cao) ⭐⭐⭐⭐⭐
+**Ưu điểm:**
+- UI/UX tương tự GitBook với sidebar navigation
+- Hỗ trợ Markdown với syntax highlighting
+- Tích hợp Vue.js cho interactive components
+- Performance cao (Vite-based)
+- SEO-friendly với SSG
+- Theme customization dễ dàng
+- Search tích hợp sẵn
+
+**Tính năng quản lý:**
+- File-based content (dễ update)
+- Hot reload khi development
+- Deploy tự động với GitHub Actions
+- Có thể tích hợp CMS headless
+
+### Phương án 2: Docusaurus (Facebook) ⭐⭐⭐⭐
+**Ưu điểm:**
+- UI modern, responsive
+- Hỗ trợ versioning documentation
+- Plugin ecosystem phong phú
+- React-based (flexible customization)
+- I18n support (đa ngôn ngữ)
+- Search với Algolia
+
+**Tính năng quản lý:**
+- MDX support (Markdown + React)
+- Blog tích hợp sẵn
+- Community-driven
+
+### Phương án 3: GitBook Alternative với Headless CMS ⭐⭐⭐⭐⭐
+**Cấu trúc:**
+- Frontend: Next.js/Nuxt.js với GitBook-like UI
+- Backend: Strapi/Sanity CMS cho dashboard quản lý
+- Database: PostgreSQL/MongoDB
+- Deployment: Vercel/Netlify
+
+**Ưu điểm:**
+- Dashboard riêng để quản lý nội dung
+- WYSIWYG editor
+- Media management tích hợp
+- User authentication & roles
+- Real-time preview
+- API-driven content
+
+### Phương án 4: Notion + Super/Fruition ⭐⭐⭐
+**Ưu điểm:**
+- Dễ sử dụng nhất cho content creators
+- WYSIWYG editing trong Notion
+- Collaborate real-time
+- Automatic publishing
+
+**Nhược điểm:**
+- Ít control về UI/UX
+- Performance không tối ưu
+- SEO hạn chế
+
+## Khuyến nghị chi tiết
+
+### 🥇 Phương án tối ưu: VitePress + Headless CMS
+**Cấu trúc:**
+```
+docs-site/
+├── frontend/ (VitePress)
+│   ├── docs/
+│   ├── .vitepress/
+│   └── public/
+├── admin/ (Strapi CMS)
+│   ├── api/
+│   ├── config/
+│   └── database/
+└── deployment/
+    ├── docker-compose.yml
+    └── github-workflows/
+```
+
+**Workflow:**
+1. **Content Creation**: Dashboard admin để tạo/edit content
+2. **Auto Sync**: Strapi → Generate Markdown files
+3. **Build**: VitePress build static site
+4. **Deploy**: Auto deploy to Vercel/Netlify
+
+**Lộ trình triển khai:**
+1. **Phase 1**: Setup VitePress với content hiện tại
+2. **Phase 2**: Integrate Strapi CMS
+3. **Phase 3**: Custom UI để match GitBook
+4. **Phase 4**: Advanced features (search, analytics)
+
+### 🥈 Phương án đơn giản: Pure VitePress
+**Ưu điểm:**
+- Quick setup (1-2 ngày)
+- File-based content management
+- Git workflow cho updates
+- Cost-effective
+
+**Phù hợp nếu:**
+- Team tech-savvy
+- Không cần dashboard phức tạp
+- Update frequency thấp-medium
