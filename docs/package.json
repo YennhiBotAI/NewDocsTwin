@@ -1,0 +1,20 @@
+{
+  "name": "twin-ai-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Twin AI Documentation Site",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "keywords": ["twin-ai", "documentation", "ai", "api"],
+  "author": "Twin AI Team",
+  "license": "MIT"
+}

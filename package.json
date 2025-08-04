@@ -2,6 +2,7 @@
   "name": "newdocstwin",
   "version": "1.0.0",
   "description": "Twin AI Documentation Site",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",

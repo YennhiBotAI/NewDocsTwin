@@ -59,11 +59,12 @@ export default defineConfig({
           ]
         },
         {
-          text: '4. Quản lý Teams của bạn',
+          text: "4. Quản lý Teams",
           collapsed: false,
           items: [
-            { text: '4.1. Quản lý Đội ngũ (Teams)', link: '/teams/team-management' },
-            { text: '4.2. Cộng tác trong Projects', link: '/teams/project-collaboration' }
+            { text: "Tổng quan Teams", link: "/teams/" },
+            { text: "4.1. Quản lý Đội ngũ", link: "/teams/team-management" },
+            { text: "4.2. Cộng tác trong Projects", link: "/teams/project-collaboration" }
           ]
         },
         {

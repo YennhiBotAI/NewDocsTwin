@@ -2,107 +2,91 @@
 layout: home
 
 hero:
-  name: Twin AI
-  text: Nền tảng AI thông minh
-  tagline: Trợ lý AI mạnh mẽ giúp bạn tối ưu hóa công việc và sáng tạo không giới hạn
+  name: "Twin AI Docs"
+  text: "Hướng dẫn sử dụng Twin AI"
+  tagline: "Phân thân của chuyên gia - Giải pháp AI thông minh cho doanh nghiệp"
   image:
-    src: /logo.svg
+    src: /logo.png
     alt: Twin AI Logo
   actions:
     - theme: brand
-      text: Bắt đầu ngay
-      link: /quickstart
+      text: Bắt đầu nhanh
+      link: /welcome/quickstart
     - theme: alt
-      text: Xem API
-      link: /api/getting-started
+      text: Đăng Ký Miễn Phí
+      link: https://twinexpert.com
 
 features:
   - icon: 🚀
-    title: Dễ dàng bắt đầu
-    details: Thiết lập nhanh chóng trong vài phút. Giao diện thân thiện và trực quan cho mọi người dùng.
+    title: Bắt đầu nhanh
+    details: Chỉ 2 phút để có kết quả đầu tiên với Twin AI
+    link: /welcome/quickstart
   
-  - icon: 🤖
-    title: AI mạnh mẽ
-    details: Công nghệ AI tiên tiến giúp bạn xử lý mọi tác vụ từ đơn giản đến phức tạp một cách hiệu quả.
+  - icon: 🛠️
+    title: Thiết lập tài khoản
+    details: Hướng dẫn đăng ký, đăng nhập và cài đặt hồ sơ
+    link: /account/
   
-  - icon: 🔧
-    title: Tùy chỉnh linh hoạt
-    details: Cấu hình và tùy chỉnh theo nhu cầu cụ thể của bạn và tổ chức.
+  - icon: 💎
+    title: Chọn gói dịch vụ
+    details: Tìm gói phù hợp từ Free đến Enterprise
+    link: /goi-dich-vu-va-thanh-toan/
+  
+  - icon: 🎯
+    title: Nền tảng cơ bản
+    details: Làm quen với giao diện và cách sử dụng hiệu quả
+    link: /basics/
   
   - icon: 👥
-    title: Cộng tác team
-    details: Làm việc nhóm hiệu quả với các tính năng cộng tác và quản lý dự án tích hợp.
+    title: Quản lý Teams
+    details: Cộng tác hiệu quả với đồng nghiệp
+    link: /teams/
   
-  - icon: 📊
-    title: Phân tích chi tiết
-    details: Theo dõi và phân tích hiệu suất làm việc với báo cáo chi tiết và trực quan.
-  
-  - icon: 🔒
-    title: Bảo mật cao
-    details: Đảm bảo an toàn dữ liệu với các tiêu chuẩn bảo mật hàng đầu thế giới.
-
-footer: |
-  <div class="footer-content">
-    <div class="footer-section">
-      <h3>Sản phẩm</h3>
-      <ul>
-        <li><a href="/quickstart">Bắt đầu nhanh</a></li>
-        <li><a href="/pricing/service-packages">Gói dịch vụ</a></li>
-        <li><a href="/api/getting-started">API Documentation</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Hỗ trợ</h3>
-      <ul>
-        <li><a href="/support/faqs">FAQ</a></li>
-        <li><a href="/support/channels">Kênh hỗ trợ</a></li>
-        <li><a href="/support/glossary">Bảng thuật ngữ</a></li>
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h3>Công ty</h3>
-      <ul>
-        <li><a href="/roadmap">Lộ trình phát triển</a></li>
-        <li><a href="https://twinexxpert.com">Website chính</a></li>
-        <li><a href="mailto:support@twinexxpert.com">Liên hệ</a></li>
-      </ul>
-    </div>
-  </div>
+  - icon: 🔧
+    title: API Documentation
+    details: Tích hợp Twin AI vào ứng dụng của bạn
+    link: /api/
 ---
 
-<style>
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
+## Chào mừng đến với Twin AI! 👋
 
-.footer-section h3 {
-  margin-bottom: 1rem;
-  color: var(--vp-c-text-1);
-  font-weight: 600;
-}
+Twin AI là giải pháp AI thông minh giúp bạn có được **"phân thân của chuyên gia"** trong mọi lĩnh vực. Từ viết content, lập kế hoạch marketing đến xây dựng kịch bản - Twin AI sẽ là trợ thủ đắc lực cho công việc của bạn.
 
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+### 🎯 Bắt đầu từ đâu?
 
-.footer-section li {
-  margin-bottom: 0.5rem;
-}
+**Lần đầu sử dụng?** → [Bắt đầu nhanh (2 phút)](/welcome/quickstart)
 
-.footer-section a {
-  color: var(--vp-c-text-2);
-  text-decoration: none;
-  transition: color 0.3s;
-}
+**Muốn hiểu rõ hơn?** → [Twin AI hoạt động như thế nào?](/welcome/twin-ai-hoat-dong-nhu-the-nao)
 
-.footer-section a:hover {
-  color: var(--vp-c-brand-1);
-}
-</style>
+**Sẵn sàng thiết lập?** → [Đăng ký tài khoản](/account/registration-login)
+
+### 📚 Cấu trúc tài liệu
+
+Tài liệu được tổ chức theo trình tự học từ cơ bản đến nâng cao:
+
+1. **Welcome & Quickstart** - Giới thiệu và bắt đầu nhanh
+2. **Quản lý tài khoản** - Đăng ký và thiết lập
+3. **Gói dịch vụ** - Chọn gói phù hợp
+4. **Nền tảng cơ bản** - Cách sử dụng hiệu quả
+5. **Quản lý Teams** - Cộng tác nhóm
+6. **API Documentation** - Tích hợp kỹ thuật
+7. **Hỗ trợ** - FAQs và liên hệ
+
+### 🚀 Tính năng nổi bật
+
+- **AI Conversation**: Giao tiếp tự nhiên với 10+ chuyên gia AI
+- **Project Management**: Tổ chức công việc theo dự án
+- **Team Collaboration**: Cộng tác hiệu quả với đồng nghiệp  
+- **File Upload**: Phân tích tài liệu PDF, Word, Excel
+- **API Integration**: Tích hợp vào hệ thống hiện có
+
+### 💡 Cần hỗ trợ?
+
+- **Website**: [twinexpert.com](https://twinexpert.com)
+- **Email**: agent.twinai@gmail.com
+- **Hotline**: +84 901 404 590
+
+---
+
+*Cập nhật lần cuối: {{ new Date().toLocaleDateString('vi-VN') }}*
+
