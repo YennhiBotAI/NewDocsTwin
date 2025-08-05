@@ -1,0 +1,14 @@
+name: Trigger Vercel Deployment
+
+on:
+  push:
+    branches:
+      - main  # Hoặc branch nào khác bạn muốn trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Webhook
+        run: |
+          curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}

@@ -7,7 +7,28 @@ export default defineConfig({
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/docs/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/docs/favicon.ico' }],
+    
+    // Open Graph / Social Media Meta Tags
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Twin AI Documentation' }],
+    ['meta', { property: 'og:description', content: 'Tài liệu hướng dẫn sử dụng Twin AI - Nền tảng AI thông minh cho mọi người' }],
+    ['meta', { property: 'og:image', content: '/docs/og-image.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:url', content: 'https://docs.twinai.com' }], // Thay bằng domain thật
+    ['meta', { property: 'og:site_name', content: 'Twin AI Docs' }],
+    
+    // Twitter Meta Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Twin AI Documentation' }],
+    ['meta', { name: 'twitter:description', content: 'Tài liệu hướng dẫn sử dụng Twin AI - Nền tảng AI thông minh cho mọi người' }],
+    ['meta', { name: 'twitter:image', content: '/docs/og-image.png' }],
+    
+    // Additional Meta Tags
+    ['meta', { name: 'theme-color', content: '#646cff' }],
+    ['meta', { name: 'author', content: 'Twin AI Team' }],
+    ['meta', { name: 'keywords', content: 'Twin AI, AI, documentation, artificial intelligence, hướng dẫn' }]
   ],
 
   themeConfig: {
