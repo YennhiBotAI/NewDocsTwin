@@ -30,7 +30,7 @@ Tìm hiểu cách chia sẻ dự án và làm việc cùng nhau một cách li�
 
 ## Hình ảnh minh họa
 
-![Sơ đồ Phân quyền Dự án trong Team](./images/So-do-Phan-quyen-Du-an-trong-Team.png)
+![Sơ đồ Phân quyền Dự án trong Team](/images/team-permissions-diagram.png)
 
 ## Tính năng chính
 

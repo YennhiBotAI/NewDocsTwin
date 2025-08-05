@@ -6,7 +6,7 @@ Giao tiếp hiệu quả là chìa khóa để khai thác 100% tiềm năng củ
 
 Thay vì một câu lệnh ngắn gọn, hãy cung cấp cho Twin AI một bối cảnh đầy đủ.
 
-![Dialog Interface 1](./images/dialog-interface-1.png)
+![Dialog Interface 1](/images/dialog-interface-1.png)
 
 Ví dụ thay vì nói:
 > "Viết content marketing"
@@ -14,7 +14,7 @@ Ví dụ thay vì nói:
 Hãy nói:
 > "Hãy đóng vai một chuyên gia Marketing Digital có 10 năm kinh nghiệm. Mục tiêu là tạo ra một chiến lược content marketing để tăng engagement cho thương hiệu thời trang bền vững. Đối tượng khách hàng là Gen Z Việt Nam (18-25 tuổi), có thu nhập trung bình, quan tâm đến môi trường. Viết cho tôi 5 ý tưởng content chính, mỗi ý tưởng bao gồm tiêu đề, mô tả ngắn, và platform phù hợp."
 
-![Dialog Interface 2](./images/dialog-interface-2.png)
+![Dialog Interface 2](/images/dialog-interface-2.png)
 
 ## Cấu trúc một câu lệnh (Prompt) hiệu quả:
 
@@ -25,13 +25,13 @@ Một câu lệnh mạnh thường bao gồm 4 thành tố:
 - **[BỐI CẢNH & ĐỐI TƯỢNG]**: "Sản phẩm của tôi là..., đối tượng là..."
 - **[YÊU CẦU & ĐỊNH DẠNG]**: "Viết 3 ý chính, định dạng đầu ra là markdown..."
 
-![Dialog Interface 3](./images/dialog-interface-3.png)
+![Dialog Interface 3](/images/dialog-interface-3.png)
 
 ## Sử dụng tệp đính kèm (File Attachment):
 
 Để cung cấp ngữ cảnh sâu hơn, bạn có thể **đính kèm** các tệp tài liệu vào cuộc hội thoại hoặc input trong phần **kiến thức dự án**. Twin AI sẽ đọc và phân tích nội dung tệp để đưa ra câu trả lời chính xác hơn dựa trên dữ liệu bạn cung cấp.
 
-![Dialog Interface 4](./images/dialog-interface-4.png)
+![Dialog Interface 4](/images/dialog-interface-4.png)
 
 ### Các loại tệp được hỗ trợ:
 - PDF (.pdf)
@@ -40,7 +40,7 @@ Một câu lệnh mạnh thường bao gồm 4 thành tố:
 - Bảng tính Excel (.xlsx, .csv)
 - Hình ảnh (.jpg, .png, .gif)
 
-![Dialog Interface 5](./images/dialog-interface-5.png)
+![Dialog Interface 5](/images/dialog-interface-5.png)
 
 ## Kỹ thuật Prompt nâng cao:
 
@@ -54,12 +54,12 @@ Yêu cầu Twin AI giải thích từng bước suy nghĩ:
 ### 3. Few-shot Examples (Ví dụ mẫu):
 Cung cấp 2-3 ví dụ trước khi yêu cầu AI tạo ra sản phẩm tương tự.
 
-![Dialog Interface 6](./images/dialog-interface-6.png)
+![Dialog Interface 6](/images/dialog-interface-6.png)
 
 ### 4. Constraint và Specification (Ràng buộc cụ thể):
 > "Viết trong 500 từ, sử dụng tone of voice trẻ trung, bao gồm 3 call-to-action..."
 
-![Dialog Interface 7](./images/dialog-interface-7.png)
+![Dialog Interface 7](/images/dialog-interface-7.png)
 
 ## Lưu ý quan trọng:
 
