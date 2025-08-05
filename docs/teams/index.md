@@ -12,7 +12,7 @@ Lưu ý: Tính năng làm việc với nhiều thành viên trong team chỉ có
 
 <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
 
-### [4.1. Quản lý Đội ngũ (Teams)](./quan-ly-doi-ngu-teams)
+### [4.1. Quản lý Đội ngũ (Teams)](./team-management)
 
 Hướng dẫn cách mời, xóa và phân quyền cho các thành viên trong nhóm của bạn
 
@@ -20,7 +20,7 @@ Hướng dẫn cách mời, xóa và phân quyền cho các thành viên trong n
 
 <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
 
-### [4.2. Cộng tác trong "Projects"](./cong-tac-trong-projects)
+### [4.2. Cộng tác trong "Projects"](./project-collaboration)
 
 Tìm hiểu cách chia sẻ dự án và làm việc cùng nhau một cách liền mạch
 

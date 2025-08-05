@@ -10,7 +10,7 @@ Hãy nghĩ về "Projects" như những thư mục riêng biệt cho từng chi�
 
 • **Tập trung**: Dễ dàng chuyển đổi giữa các bối cảnh công việc khác nhau mà không bị rối.
 
-• **Cộng tác**: Từ gói Pro trở lên, bạn có thể mời các thành viên trong team vào một Project cụ thể để cùng nhau làm việc (xem thêm ở [Quản Lý Team Của Bạn](./teams/))
+• **Cộng tác**: Từ gói Pro trở lên, bạn có thể mời các thành viên trong team vào một Project cụ thể để cùng nhau làm việc (xem thêm ở [Quản Lý Team Của Bạn](/teams/index))
 
 • **Context Memory**: Twin AI sẽ nhớ toàn bộ ngữ cảnh và lịch sử làm việc trong từng Project riêng biệt
 
