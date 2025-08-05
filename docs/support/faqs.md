@@ -1,5 +1,28 @@
-# Câu hỏi thường gặp (FAQs)
+# 6.1. Các câu hỏi thường gặp (FAQs)
 
+## Tổng quan
+Phần này tập hợp các câu hỏi thường gặp từ người dùng Twin AI, được phân chia thành 3 phần chính để dễ dàng tìm kiếm thông tin phù hợp với trình độ và nhu cầu của bạn.
+
+## Phân loại câu hỏi
+
+### 🆕 [Phần 1: Dành cho người mới bắt đầu](/support/faqs/beginners)
+- Các câu hỏi cơ bản về Twin AI
+- Hướng dẫn bắt đầu sử dụng
+- Tài khoản và thiết lập ban đầu
+
+### 💼 [Phần 2: Tìm hiểu về các Gói và Tính năng](/support/faqs/packages-features)
+- So sánh các gói dịch vụ
+- Tính năng của từng gói
+- Câu hỏi về thanh toán và gia hạn
+
+### 🚀 [Phần 3: Dành cho người dùng chuyên sâu](/support/faqs/advanced-users)
+- API và tích hợp
+- Quản lý team và project
+- Tối ưu hóa hiệu quả sử dụng
+
+---
+
+## Câu hỏi thường gặp
 Dưới đây là những câu hỏi được đặt nhiều nhất về Twin AI và các giải đáp chi tiết.
 
 ## 🚀 Bắt đầu với Twin AI
@@ -279,13 +302,14 @@ Bạn sẽ được thông báo qua email và in-app notifications.
 - **Automation workflows**: Tự động hóa quy trình
 - **Enterprise features**: SSO, audit logs...
 
-## Vẫn còn thắc mắc?
+## Hỗ trợ thêm
 
-Nếu câu hỏi của bạn chưa được giải đáp, đừng ngần ngại liên hệ với chúng tôi:
+**Không tìm thấy câu trả lời bạn cần?**
 
-- **Email**: agent.twinai@gmail.com
-- **Hotline**: +84 901 404 590
-- **Website**: [twinexpert.com](https://twinexpert.com)
-- **Nhóm Zalo**: cập nhật sau
+- 📧 Liên hệ đội hỗ trợ qua [email support](mailto:support@twinai.com)
+- 💬 Tham gia [cộng đồng Twin AI](https://community.twinai.com)
+- 📚 Xem thêm tại [Tài nguyên & Hỗ trợ](/support/)
 
-Đội ngũ hỗ trợ chuyên nghiệp của chúng tôi luôn sẵn sàng giúp đỡ bạn!
+---
+
+*Các FAQ được cập nhật thường xuyên dựa trên phản hồi từ người dùng. Nếu bạn có câu hỏi mới, đừng ngần ngại liên hệ với chúng tôi!*
