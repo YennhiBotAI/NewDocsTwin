@@ -26,14 +26,27 @@ jobs:
     - name: Build VitePress site
       run: npm run docs:build
       
+    - name: Create package.json for Vercel
+      run: |
+        cat > docs/.vitepress/dist/package.json << 'EOF'
+        {
+          "name": "twin-ai-docs",
+          "version": "1.0.0",
+          "scripts": {
+            "build": "echo 'Already built'"
+          },
+          "dependencies": {}
+        }
+        EOF
+      
     - name: Install Vercel CLI
       run: npm install --global vercel@latest
       
-    - name: Deploy to Vercel
-      uses: BetaHuhn/deploy-to-vercel-action@v1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy to Vercel with CLI
+      env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
         VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        WORKING_DIRECTORY: ./docs/.vitepress/dist
+      run: |
+        cd docs/.vitepress/dist
+        vercel --token=$VERCEL_TOKEN --prod --yes
