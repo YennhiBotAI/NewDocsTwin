@@ -4,8 +4,6 @@ Chào mừng bạn đến với trái tim của Twin AI! Trong chương này, ch
 
 Hãy bắt đầu từ việc làm quen với không gian làm việc, sau đó học cách "đối thoại" hiệu quả với AI và cuối cùng là tổ chức công việc một cách khoa học.
 
-![Workspace Features](../images/workspace-features.png)
-
 ## Nội dung chính
 
 ### [3.1. Không gian làm việc của bạn](./workspace)

@@ -4,6 +4,8 @@ export default defineConfig({
   title: 'Twin AI Docs',
   description: 'Hướng dẫn sử dụng Twin AI - Phân thân của chuyên gia',
   lang: 'vi-VN',
+  srcDir: '.',
+  srcExclude: ['**/_archive/**', '**/node_modules/**', '**/_temp/**'],
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
