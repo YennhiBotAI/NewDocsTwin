@@ -33,9 +33,24 @@ jobs:
           "name": "twin-ai-docs",
           "version": "1.0.0",
           "scripts": {
-            "build": "echo 'Already built'"
+            "build": "echo 'Already built'",
+            "start": "echo 'Static files'"
           },
           "dependencies": {}
+        }
+        EOF
+        
+    - name: Create vercel.json for static deployment
+      run: |
+        cat > docs/.vitepress/dist/vercel.json << 'EOF'
+        {
+          "version": 2,
+          "builds": [
+            {
+              "src": "**/*",
+              "use": "@vercel/static"
+            }
+          ]
         }
         EOF
       
@@ -45,8 +60,6 @@ jobs:
     - name: Deploy to Vercel with CLI
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
       run: |
         cd docs/.vitepress/dist
-        vercel --token=$VERCEL_TOKEN --prod --yes
+        npx vercel --token=$VERCEL_TOKEN --prod --yes --confirm
