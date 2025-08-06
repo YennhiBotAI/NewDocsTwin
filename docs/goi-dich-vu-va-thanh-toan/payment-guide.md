@@ -6,12 +6,6 @@ Việc nâng cấp gói dịch vụ được thực hiện một cách an toàn 
 
 Twin AI hỗ trợ nhiều phương thức thanh toán khác nhau để đáp ứng nhu cầu của người dùng:
 
-### Thẻ tín dụng/ghi nợ
-- Visa
-- Mastercard
-- JCB
-- American Express
-
 ### Ví điện tử
 - MoMo
 - ZaloPay
@@ -25,39 +19,10 @@ Twin AI hỗ trợ nhiều phương thức thanh toán khác nhau để đáp �
 ## Quy trình thanh toán
 
 ### Đăng ký gói mới
-1. Đăng nhập vào tài khoản Twin AI
-2. Truy cập mục "Gói dịch vụ" từ menu chính
-3. Chọn gói phù hợp và nhấn "Đăng ký"
-4. Chọn phương thức thanh toán
-5. Điền thông tin thanh toán
-6. Xác nhận giao dịch
+1. Tham khảo các gói dịch vụ tại [2.1. Tổng quan các Gói dịch vụ](/goi-dich-vu-va-thanh-toan/service-packages)
+2. Truy cập Twinexpert.com chọn "Liên Hệ" và để lại thông tin
+3. Bộ phận hỗ trợ sẽ liên hệ bạn để xác nhận thông tin và hướng dẫn thanh toán
 
-### Gia hạn gói hiện tại
-- Tự động gia hạn vào ngày kết thúc chu kỳ
-- Nhận thông báo trước khi gia hạn 7 ngày
-- Có thể hủy tự động gia hạn bất kỳ lúc nào
-
-### Nâng cấp/hạ cấp gói
-1. Truy cập "Quản lý gói" trong phần cài đặt
-2. Chọn "Thay đổi gói"
-3. Chọn gói mới và xác nhận
-
-## Chính sách hoàn tiền
-
-- **14 ngày đầu tiên**: Hoàn tiền 100% nếu không hài lòng
-- **Sau 14 ngày**: Không áp dụng hoàn tiền
-- **Trường hợp đặc biệt**: Liên hệ support@twinai.com để được xem xét
-
-## Hóa đơn và báo cáo tài chính
-
-### Hóa đơn điện tử
-- Được gửi qua email sau mỗi lần thanh toán
-- Có thể tải về từ phần "Lịch sử thanh toán"
-
-### Yêu cầu hóa đơn VAT
-1. Cập nhật thông tin công ty trong phần "Thông tin thanh toán"
-2. Đánh dấu lựa chọn "Yêu cầu hóa đơn VAT" khi thanh toán
-3. Hóa đơn sẽ được gửi trong vòng 5 ngày làm việc
 
 ## Câu hỏi thường gặp
 
@@ -68,7 +33,7 @@ Có, bạn có thể thay đổi phương thức thanh toán bất kỳ lúc nà
 Truy cập vào "Cài đặt tài khoản" > "Lịch sử thanh toán" để xem tất cả giao dịch.
 
 ### Tôi gặp lỗi khi thanh toán, phải làm gì?
-Liên hệ ngay với đội hỗ trợ qua email support@twinai.com hoặc hotline +84 901 404 590.
+Liên hệ ngay với đội hỗ trợ qua email agent.twinai@gmail.com hoặc hotline +84 901 404 590.
 
 ---
 
