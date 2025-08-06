@@ -3,7 +3,7 @@
 Hãy nghĩ về "Projects" như những thư mục riêng biệt cho từng chiến dịch, từng khách hàng, hoặc từng mục tiêu công việc của bạn. Việc sử dụng Projects giúp bạn giữ cho không gian làm việc luôn gọn gàng và có tổ chức.
 
 ![Projects Management](/images/projects-management.png)
-
+*Khu vực quản lý Project của bạn.*
 ## Video hướng dẫn
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 61.2979%;">
