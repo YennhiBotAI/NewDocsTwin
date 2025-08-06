@@ -1,6 +1,6 @@
 # 2.2. Hướng dẫn Thanh toán
 
-Phần này cung cấp thông tin chi tiết về các phương thức thanh toán và quy trình thanh toán cho các gói dịch vụ Twin AI.
+Việc nâng cấp gói dịch vụ được thực hiện một cách an toàn và nhanh chóng ngay trên nền tảng của chúng tôi.
 
 ## Phương thức thanh toán
 

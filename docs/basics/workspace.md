@@ -55,5 +55,4 @@ Dưới đây, chúng tôi sẽ giải thích ngắn gọn về vai trò của t
 ---
 
 **Bước tiếp theo:** Sau khi đã làm quen với không gian làm việc, hãy chuyển sang [Nghệ thuật Đối thoại cùng Twin AI](./conversation-art) để học cách giao tiếp hiệu quả với AI.
-Dưới đây, chúng tôi sẽ giải thích ngắn gọn về vai trò của từng khu vực bạn thấy trên menu chức năng
 

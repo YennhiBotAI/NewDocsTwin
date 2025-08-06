@@ -1,107 +1,46 @@
 # 1.1. Đăng ký và Đăng nhập
 
-Tài liệu này hướng dẫn chi tiết cách đăng ký tài khoản mới và đăng nhập vào Twin AI.
+Chúng tôi cung cấp phương thức đăng ký bằng email truyền thống để bạn có thể truy cập Twin AI một cách thuận tiện và an toàn nhất.
 
-## Đăng ký tài khoản mới
+## Hướng Dẫn Cơ Bản: Đăng Ký Tài Khoản Twin AI
 
-### Bước 1: Truy cập trang đăng ký
-Truy cập trang web chính của Twin AI tại [twinexpert.com](https://twinexpert.com) và nhấn vào nút "Đăng ký" ở góc phải trên cùng của trang.
+Trước khi có thể sử dụng Twin AI, bạn cần phải đăng ký và tạo một tài khoản trên máy tính của mình. Dưới đây là hướng dẫn chi tiết để giúp bạn thực hiện quá trình này một cách dễ dàng.
 
-### Bước 2: Chọn phương thức đăng ký
-Bạn có thể đăng ký bằng một trong các phương thức sau:
-- Email và mật khẩu
-- Tài khoản Google
-- Tài khoản Facebook
-- Tài khoản Apple (cho iOS/macOS)
+**Bắt đầu đăng ký tài khoản ngay nhé!**
 
-### Bước 3: Điền thông tin cá nhân
-Nếu bạn chọn đăng ký bằng email, hãy điền các thông tin sau:
-- Họ và tên
-- Địa chỉ email
-- Mật khẩu (ít nhất 8 ký tự, bao gồm chữ hoa, chữ thường và số)
-- Xác nhận mật khẩu
+### Bước 1: Truy Cập Trang Đăng Ký
 
-### Bước 4: Xác minh email
-Sau khi điền thông tin, hệ thống sẽ gửi một email xác minh đến địa chỉ email bạn đã đăng ký.
-1. Kiểm tra hộp thư đến của bạn
-2. Mở email từ Twin AI
-3. Nhấn vào liên kết xác minh
+Truy cập trang đăng ký của Twin AI tại:
+https://twinexpert.com/auth/register
 
-### Bước 5: Hoàn tất đăng ký
-Sau khi xác minh email, bạn sẽ được chuyển đến trang hoàn tất đăng ký, nơi bạn có thể:
-- Chọn gói dịch vụ (Free, Starter, Professional, Enterprise)
-- Cung cấp thông tin bổ sung (tùy chọn)
-- Bắt đầu sử dụng Twin AI
+### Bước 2: Nhập Thông Tin Tài Khoản
 
-## Đăng nhập vào tài khoản
+Điền địa chỉ email của bạn và tạo một mật khẩu mạnh
 
-### Bước 1: Truy cập trang đăng nhập
-Truy cập [twinexpert.com/login](https://twinexpert.com/login) hoặc nhấn vào nút "Đăng nhập" ở góc phải trên cùng của trang chủ.
+**Lưu ý:** mật khẩu mạnh cần có cả chữ hoa, chữ thường, số và ký tự đặc biệt
 
-### Bước 2: Nhập thông tin đăng nhập
-Nhập thông tin đăng nhập của bạn:
-- Email hoặc tên đăng nhập
-- Mật khẩu
+Sau khi hoàn tất, hãy nhấn **Tiếp Tục**
 
-Hoặc chọn đăng nhập bằng:
-- Tài khoản Google
-- Tài khoản Facebook
-- Tài khoản Apple
+### Bước 3: Kiểm tra email khi đăng ký thành công
 
-### Bước 3: Xác minh hai yếu tố (nếu đã bật)
-Nếu bạn đã bật xác minh hai yếu tố, hệ thống sẽ yêu cầu:
-- Mã xác thực từ ứng dụng xác thực (Google Authenticator, Authy...)
-- Hoặc mã gửi qua SMS đến số điện thoại đã đăng ký
+Đăng ký thành công → Bạn tiếp tục kiểm tra hộp thư Email đã đăng ký
 
-## Khắc phục sự cố đăng nhập
+### Bước 4: Xác Thực Email kích hoạt tài khoản
 
-### Quên mật khẩu
-Nếu bạn quên mật khẩu:
-1. Nhấn vào liên kết "Quên mật khẩu?" trên trang đăng nhập
-2. Nhập địa chỉ email đã đăng ký
-3. Kiểm tra email để nhận liên kết đặt lại mật khẩu
-4. Nhấn vào liên kết và tạo mật khẩu mới
+Kiểm tra hộp thư đến của bạn và nhấp vào liên kết xác thực để kích hoạt tài khoản.
 
-### Tài khoản bị khóa
-Nếu bạn nhập sai mật khẩu nhiều lần, tài khoản có thể bị khóa tạm thời:
-- Đợi 30 phút và thử lại
-- Hoặc sử dụng tính năng "Quên mật khẩu" để đặt lại mật khẩu và mở khóa tài khoản
+### Bước 5: Đăng Nhập Twin AI
 
-### Không nhận được email xác minh
-Nếu bạn không nhận được email xác minh:
-1. Kiểm tra thư mục Spam hoặc Junk
-2. Nhấn "Gửi lại email xác minh" trên trang đăng ký
-3. Kiểm tra lại địa chỉ email đã nhập
-4. Nếu vẫn gặp vấn đề, liên hệ hỗ trợ qua support@twinai.com
+Sau khi xác thực tài khoản, bạn sẽ được chuyển đến trang **đăng nhập** của Twin AI
 
-## Bảo mật tài khoản
+### Bước 6: Nhập Thông Tin và Đăng Nhập
 
-### Mật khẩu mạnh
-- Sử dụng ít nhất 8 ký tự
-- Kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt
-- Tránh sử dụng thông tin cá nhân dễ đoán
-- Không sử dụng lại mật khẩu từ các trang web khác
+- **Email:** Nhập địa chỉ email bạn đã đăng ký trước đó.
+- **Mật khẩu:** Nhập mật khẩu bạn đã tạo.
 
-### Bật xác minh hai yếu tố
-Để tăng cường bảo mật, hãy bật xác minh hai yếu tố trong phần Cài đặt tài khoản:
-1. Đăng nhập vào Twin AI
-2. Truy cập "Cài đặt tài khoản"
-3. Chọn "Bảo mật"
-4. Bật "Xác minh hai yếu tố"
-5. Làm theo hướng dẫn trên màn hình
+Cuối cùng, nhấn **Đăng nhập** để bắt đầu sử dụng Twin AI.
 
-## Đăng nhập trên nhiều thiết bị
+## Lưu Ý:
 
-Twin AI hỗ trợ đăng nhập trên nhiều thiết bị cùng lúc, bao gồm:
-- Máy tính (trình duyệt web)
-- Điện thoại di động (ứng dụng hoặc trình duyệt)
-- Máy tính bảng
-
-Lưu ý: Nếu bạn phát hiện hoạt động đáng ngờ, hãy ngay lập tức:
-1. Đổi mật khẩu
-2. Kiểm tra phiên đăng nhập trong "Cài đặt bảo mật"
-3. Đăng xuất khỏi tất cả các thiết bị
-
----
-
-*Nếu bạn gặp khó khăn trong quá trình đăng ký hoặc đăng nhập, vui lòng liên hệ với đội hỗ trợ của chúng tôi qua email support@twinai.com hoặc hotline +84 901 404 590.*
+- Đảm bảo rằng **email bạn nhập là chính xác** để nhận được thông báo xác thực.
+- Nếu **không nhận được email xác thực**, hãy kiểm tra thư mục **Spam** hoặc liên hệ với bộ phận hỗ trợ của chúng tôi để được trợ giúp (Email: agent.twinai@gmail.com)

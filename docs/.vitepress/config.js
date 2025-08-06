@@ -17,7 +17,7 @@ export default defineConfig({
     
     nav: [
       { text: 'Trang chủ', link: '/' },
-      { text: 'Bắt đầu', link: '/welcome/welcome-to-twin-ai' },
+      { text: 'Bắt đầu', link: '/welcome/' },
       { text: 'API Docs', link: '/api/' },
       { text: 'Hỗ trợ', link: '/support/' }
     ],
@@ -27,8 +27,8 @@ export default defineConfig({
         text: '👋 Welcome to Twin AI',
         collapsed: false,
         items: [
-          { text: 'Chào mừng đến với Twin AI', link: '/welcome/welcome-to-twin-ai' },
-          { text: 'Twin AI hoạt động như thế nào?', link: '/welcome/twin-ai-hoat-dong-nhu-the-nao' },
+          { text: 'Chào mừng đến với Twin AI', link: '/welcome/' },
+          { text: 'Twin AI hoạt động như thế nào?', link: '/welcome/how-it-works' },
           { text: 'Twin AI dành cho ai?', link: '/welcome/twin-ai-danh-cho-ai' },
           { text: 'Bắt đầu nhanh (Quickstart)', link: '/welcome/quickstart' },
           { text: 'Lộ trình phát triển (Roadmap)', link: '/welcome/roadmap' }

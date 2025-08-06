@@ -1,141 +1,91 @@
 # 2.1. Tổng quan các Gói dịch vụ
 
-Twin AI cung cấp nhiều gói dịch vụ khác nhau để đáp ứng nhu cầu đa dạng của người dùng, từ cá nhân, freelancer cho đến doanh nghiệp vừa và lớn.
+Lựa chọn gói dịch vụ phù hợp sẽ giúp bạn khai thác tối đa sức mạnh của Twin AI. Dưới đây là bảng so sánh chi tiết các tính năng chính để bạn dễ dàng đưa ra quyết định.
 
 ## So sánh các gói dịch vụ
 
-| Tính năng | FREE | STARTER | PROFESSIONAL | ENTERPRISE |
-|-----------|------|---------|--------------|------------|
-| **Giá** | Miễn phí | 99k/tháng | 299k/tháng | Liên hệ |
-| **Số lượng tin nhắn** | 50/tháng | 500/tháng | 2000/tháng | Không giới hạn |
-| **Số lượng Projects** | 2 | 10 | 50 | Không giới hạn |
-| **Số Twin** | 5 | 20 | 50 | Tất cả |
-| **Upload dữ liệu** | 100MB | 1GB | 10GB | Không giới hạn |
-| **Thành viên team** | 0 | 3 | 10 | Không giới hạn |
-| **Hỗ trợ** | Email cơ bản | Email ưu tiên | Chat trực tiếp | Chuyên viên riêng |
+| TÍNH NĂNG | FREE (Dùng thử) | CREATOR | PROFESSIONAL (Dành cho SMEs & Team) | BUSINESS (Dành cho Doanh nghiệp) | ENTERPRISE (Giải pháp tùy chỉnh) |
+|------------|------------------|---------|--------------------------------------|-----------------------------------|----------------------------------|
+| **Đối tượng Khách hàng mục tiêu** | Cá nhân muốn khám phá | Freelancer, Solopreneur | SMEs, Startups, Team Marketing nhỏ, Chuyên gia | Doanh nghiệp: Agency, Brand | Doanh nghiệp lớn, Tập đoàn |
+| **Gói đăng ký** | 0đ | 990.000đ/tháng | 5.000.000đ/tháng | Từ 15,000,000đ/tháng | Thiết kế riêng theo nhu cầu |
+| **Số Twins** | 1 Twin (Content Marketing) | 2 Twins Content Marketing Full stack - Tương đương nhân sự 5 năm kinh nghiệm | 1 Twin Manager Level & 4 Twins Senior level | 1 Twin C-level, Chuyên gia & 9 Twins Senior level | Không giới hạn cho riêng phòng ban Marketing, sẽ tùy chỉnh theo cấu trúc DN |
+| **Teams** | ❌ | ✅ | ✅ | ✅ | ✅ |
+| **Project** | ❌ | 5 | 20 | 50 | Tùy deal |
+| **Kiến thức/Project** | ❌ | 20 Files | 50 Files | 200 Files | Tùy deal |
+| **Số lượng người dùng** | 1 người dùng - 1 tuần | 1 người dùng | Team 5 người dùng | Tối đa 10 người dùng | Tùy deal |
+| **API Keys for Automation** | ❌ | ❌ | ✅ | ✅ | ✅ |
+| **Hỗ trợ** | Group Cộng đồng | Group Private (CSKH) | Trực tiếp bởi Senior, Đội ngũ kỹ thuật | Hỗ trợ bởi chuyên gia 1-1 Hỗ trợ setup ban đầu | Đồng hành xuyên suốt cùng với doanh nghiệp |
+| **Đào tạo & Tư vấn** | ❌ | Tặng khoá học "2 ngày làm chủ AI" * | Tặng 1 khóa học "2 ngày làm chủ AI" * | Tặng 1 buổi coaching DN Tặng 1 khóa học "2 ngày làm chủ AI" | Chương trình đào tạo/cố vấn tùy chỉnh |
+| **Cam kết hợp đồng** | Không | Thanh toán linh hoạt (tháng/năm) | Thanh toán linh hoạt (tháng/năm) | Tối thiểu 3 tháng | Tối thiểu 1 năm |
+| **Chiết khấu thanh toán** | Không | 5% (3 tháng), 10%(6 tháng), 20% (1 năm) | 5% (3 tháng), 10%(6 tháng), 20% (1 năm) | 10%(6 tháng), 20% (1 năm) | Thỏa thuận |
 
-## Gói FREE
+## Gói FREE (Dùng thử)
+**Giá:** Miễn phí  
+**Đối tượng:** Cá nhân muốn khám phá
 
-Gói miễn phí dành cho người dùng cá nhân muốn khám phá và trải nghiệm Twin AI.
+### Tính năng:
+- 1 Twin (Content Marketing)
+- 1 người dùng - 1 tuần
+- Không có Teams
+- Không có Projects
+- Hỗ trợ: Group Cộng đồng
 
-### Tính năng nổi bật:
-- 50 tin nhắn mỗi tháng
-- 2 projects
-- 5 Twin AI cơ bản
-- 100MB lưu trữ
-- Không có tính năng team
+## Gói CREATOR - 990.000đ/tháng
+**Đối tượng:** Freelancer, Solopreneur
 
-### Phù hợp với:
-- Người dùng cá nhân
-- Học sinh, sinh viên
-- Người muốn trải nghiệm trước khi nâng cấp
+### Tính năng:
+- 2 Twins Content Marketing Full stack - Tương đương nhân sự 5 năm kinh nghiệm
+- 1 người dùng
+- Teams: ✅
+- 5 Projects
+- 20 Files/Project
+- Group Private (CSKH)
+- Tặng khoá học "2 ngày làm chủ AI"
+- Thanh toán linh hoạt (tháng/năm)
+- Chiết khấu: 5% (3 tháng), 10%(6 tháng), 20% (1 năm)
 
-## Gói STARTER - 99k/tháng
+## Gói PROFESSIONAL - 5.000.000đ/tháng
+**Đối tượng:** SMEs, Startups, Team Marketing nhỏ, Chuyên gia
 
-Gói dịch vụ phổ biến dành cho freelancer và các chuyên gia tự do.
+### Tính năng:
+- 1 Twin Manager Level & 4 Twins Senior level
+- Team 5 người dùng
+- 20 Projects
+- 50 Files/Project
+- API Keys for Automation
+- Hỗ trợ trực tiếp bởi Senior, Đội ngũ kỹ thuật
+- Tặng 1 khóa học "2 ngày làm chủ AI"
+- Thanh toán linh hoạt (tháng/năm)
+- Chiết khấu: 5% (3 tháng), 10%(6 tháng), 20% (1 năm)
 
-### Tính năng nổi bật:
-- 500 tin nhắn mỗi tháng
-- 10 projects
-- 20 Twin AI
-- 1GB lưu trữ dữ liệu
-- Team 3 người
-- Ưu tiên hỗ trợ qua email
+## Gói BUSINESS - Từ 15,000,000đ/tháng
+**Đối tượng:** Doanh nghiệp: Agency, Brand
 
-### Phù hợp với:
-- Freelancer
-- Content creator
-- Doanh nghiệp nhỏ
-- Startup giai đoạn đầu
+### Tính năng:
+- 1 Twin C-level, Chuyên gia & 9 Twins Senior level
+- Tối đa 10 người dùng
+- 50 Projects
+- 200 Files/Project
+- API Keys for Automation
+- Hỗ trợ bởi chuyên gia 1-1 & Hỗ trợ setup ban đầu
+- Tặng 1 buổi coaching DN + Tặng 1 khóa học "2 ngày làm chủ AI"
+- Cam kết tối thiểu 3 tháng
+- Chiết khấu: 10%(6 tháng), 20% (1 năm)
 
-## Gói PROFESSIONAL - 299k/tháng
+## Gói ENTERPRISE - Thiết kế riêng theo nhu cầu
+**Đối tượng:** Doanh nghiệp lớn, Tập đoàn
 
-Giải pháp chuyên nghiệp dành cho team nhỏ và doanh nghiệp vừa.
-
-### Tính năng nổi bật:
-- 2000 tin nhắn mỗi tháng
-- 50 projects
-- 50 Twin AI chuyên biệt
-- 10GB lưu trữ
-- Team 10 người
-- Hỗ trợ chat trực tiếp
-- Phân quyền team
-- Tính năng analytics cơ bản
-
-### Phù hợp với:
-- Doanh nghiệp vừa
-- Agency
-- Team marketing, content
-- Doanh nghiệp có nhu cầu cao về nội dung
-
-## Gói ENTERPRISE - Liên hệ báo giá
-
-Giải pháp toàn diện và tùy chỉnh cho doanh nghiệp lớn với nhu cầu đặc biệt.
-
-### Tính năng nổi bật:
-- Không giới hạn tin nhắn
-- Không giới hạn projects
-- Tất cả Twin AI
-- Không giới hạn lưu trữ
-- Không giới hạn thành viên
-- Chuyên viên hỗ trợ riêng
-- SSO (Đăng nhập một lần)
-- API không giới hạn
-- Custom Twin AI
-- Analytics nâng cao
-- Đào tạo và onboarding
-
-### Phù hợp với:
-- Doanh nghiệp lớn
-- Tập đoàn đa quốc gia
-- Tổ chức với nhu cầu tùy chỉnh cao
-- Doanh nghiệp cần tích hợp sâu với hệ thống hiện có
-
-## So sánh chi tiết tính năng
-
-### Tính năng Twin AI
-| Tính năng | FREE | STARTER | PROFESSIONAL | ENTERPRISE |
-|-----------|------|---------|--------------|------------|
-| AI Twins cơ bản | ✅ | ✅ | ✅ | ✅ |
-| Twin chuyên ngành | ❌ | ✅ | ✅ | ✅ |
-| Twin tùy chỉnh | ❌ | ❌ | ✅ | ✅ |
-| Custom Twin riêng | ❌ | ❌ | ❌ | ✅ |
-
-### Tính năng Quản lý dữ liệu
-| Tính năng | FREE | STARTER | PROFESSIONAL | ENTERPRISE |
-|-----------|------|---------|--------------|------------|
-| Upload PDF | ✅ | ✅ | ✅ | ✅ |
-| Upload Doc/Docx | ✅ | ✅ | ✅ | ✅ |
-| Upload Excel | ❌ | ✅ | ✅ | ✅ |
-| Upload hình ảnh | ❌ | ❌ | ✅ | ✅ |
-| Kết nối database | ❌ | ❌ | ❌ | ✅ |
-
-### Tính năng Team
-| Tính năng | FREE | STARTER | PROFESSIONAL | ENTERPRISE |
-|-----------|------|---------|--------------|------------|
-| Thêm thành viên | ❌ | ✅ | ✅ | ✅ |
-| Phân quyền admin | ❌ | ✅ | ✅ | ✅ |
-| Role-based access | ❌ | ❌ | ✅ | ✅ |
-| SSO | ❌ | ❌ | ❌ | ✅ |
-| User Groups | ❌ | ❌ | ❌ | ✅ |
-
-## Chuyển đổi gói dịch vụ
-
-Bạn có thể nâng cấp gói dịch vụ bất kỳ lúc nào để có thêm tính năng. Khi nâng cấp, hệ thống sẽ tính phí chênh lệch tương ứng với thời gian còn lại của chu kỳ hiện tại.
-
-Đối với hạ cấp gói dịch vụ, thay đổi sẽ có hiệu lực từ chu kỳ thanh toán tiếp theo để đảm bảo bạn có thể sử dụng đầy đủ gói hiện tại cho đến hết chu kỳ.
-
-## Câu hỏi thường gặp
-
-### Có thể chuyển đổi từ thanh toán hàng tháng sang hàng năm không?
-Có, bạn có thể chuyển đổi sang thanh toán hàng năm bất kỳ lúc nào và được hưởng giảm giá 20% so với tổng chi phí hàng tháng.
-
-### Có ưu đãi cho startup không?
-Có, chúng tôi có chương trình ưu đãi đặc biệt cho các startup. Vui lòng liên hệ startup@twinai.com để biết thêm chi tiết.
-
-### Có giới hạn về số lượng người dùng cho gói Enterprise không?
-Không, gói Enterprise được thiết kế để đáp ứng nhu cầu của tổ chức ở mọi quy mô mà không giới hạn số lượng người dùng.
+### Tính năng:
+- Không giới hạn cho riêng phòng ban Marketing, sẽ tùy chỉnh theo cấu trúc DN
+- Số lượng người dùng: Tùy deal
+- Projects: Tùy deal
+- Files/Project: Tùy deal
+- API Keys for Automation
+- Đồng hành xuyên suốt cùng với doanh nghiệp
+- Chương trình đào tạo/cố vấn tùy chỉnh
+- Cam kết tối thiểu 1 năm
+- Chiết khấu: Thỏa thuận
 
 ---
 
-*Để tư vấn chi tiết về gói dịch vụ phù hợp với nhu cầu của bạn, vui lòng liên hệ sales@twinai.com hoặc gọi hotline +84 901 404 590.*
+*Để được tư vấn chi tiết về gói dịch vụ phù hợp với nhu cầu của bạn, vui lòng liên hệ với đội ngũ Twin AI.*
