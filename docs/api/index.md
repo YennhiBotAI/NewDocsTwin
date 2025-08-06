@@ -59,5 +59,5 @@ https://api.twinai.dev/v1
 ---
 
 ::: tip Ghi chú
-API documentation này được cập nhật thường xuyên. Vui lòng theo dõi [changelog](/changelog) để biết các thay đổi mới nhất.
+API documentation này được cập nhật thường xuyên. Vui lòng kiểm tra thường xuyên để biết các thay đổi mới nhất.
 :::
