@@ -88,10 +88,10 @@ export default defineConfig({
         text: '6. TÀI NGUYÊN & HỖ TRỢ',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/tai-nguyen-ho-tro/' },
-          { text: '6.1. Các câu hỏi thường gặp (FAQs)', link: '/tai-nguyen-ho-tro/cac-cau-hoi-thuong-gap-faqs' },
-          { text: '6.2. Các kênh hỗ trợ', link: '/tai-nguyen-ho-tro/cac-kenh-ho-tro' },
-          { text: '6.3. Bảng thuật ngữ', link: '/tai-nguyen-ho-tro/bang-thuat-ngu' }
+          { text: 'Tổng quan', link: '/support/' },
+          { text: '6.1. Các câu hỏi thường gặp (FAQs)', link: '/support/faqs' },
+          { text: '6.2. Các kênh hỗ trợ', link: '/support/support-channels' },
+          { text: '6.3. Bảng thuật ngữ', link: '/support/glossary' }
         ]
       }
     ],

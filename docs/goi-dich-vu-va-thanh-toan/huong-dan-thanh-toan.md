@@ -19,7 +19,7 @@ Twin AI hỗ trợ nhiều phương thức thanh toán khác nhau để đáp �
 ## Quy trình thanh toán
 
 ### Đăng ký gói mới
-1. Tham khảo các gói dịch vụ tại [2.1. Tổng quan các Gói dịch vụ](/goi-dich-vu-va-thanh-toan/service-packages)
+1. Tham khảo các gói dịch vụ tại [2.1. Tổng quan các Gói dịch vụ](/goi-dich-vu-va-thanh-toan/tong-quan-cac-goi-dich-vu)
 2. Truy cập Twinexpert.com chọn "Liên Hệ" và để lại thông tin
 3. Bộ phận hỗ trợ sẽ liên hệ bạn để xác nhận thông tin và hướng dẫn thanh toán
 

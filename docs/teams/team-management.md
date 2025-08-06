@@ -16,5 +16,3 @@ Sau khi tạo được team của mình (Xem [phần 3.3](/basics/project-manage
   </iframe>
 </div>
 
-![Sơ đồ Phân quyền Dự án trong Team](../images/team-permissions-diagram.png)
-

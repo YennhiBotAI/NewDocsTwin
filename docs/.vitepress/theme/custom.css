@@ -396,6 +396,179 @@ iframe[src*="supademo"] {
   margin: 1rem 0;
 }
 
+/* Responsive Pricing Table Styling */
+.pricing-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--vp-c-border);
+}
+
+.pricing-table {
+  min-width: 900px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 0;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 12px 8px;
+  text-align: left;
+  border: 1px solid var(--vp-c-border);
+  vertical-align: top;
+  line-height: 1.4;
+}
+
+.pricing-table th {
+  background-color: var(--vp-c-bg-mute);
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.pricing-table td:first-child,
+.pricing-table th:first-child {
+  font-weight: 600;
+  background-color: var(--vp-c-bg-alt);
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 200px;
+  text-align: left;
+}
+
+/* Plan header styling with distinct colors */
+.pricing-table th:nth-child(2) { 
+  background-color: #e3f2fd; 
+  color: #1565c0;
+}
+.pricing-table th:nth-child(3) { 
+  background-color: #f3e5f5; 
+  color: #7b1fa2;
+}
+.pricing-table th:nth-child(4) { 
+  background-color: #e8f5e8; 
+  color: #2e7d32;
+}
+.pricing-table th:nth-child(5) { 
+  background-color: #fff3e0; 
+  color: #f57c00;
+}
+.pricing-table th:nth-child(6) { 
+  background-color: #fce4ec; 
+  color: #c2185b;
+}
+
+/* Dark mode compatibility */
+html.dark .pricing-table th:nth-child(2) { 
+  background-color: #1e3a8a; 
+  color: #93c5fd;
+}
+html.dark .pricing-table th:nth-child(3) { 
+  background-color: #581c87; 
+  color: #d8b4fe;
+}
+html.dark .pricing-table th:nth-child(4) { 
+  background-color: #14532d; 
+  color: #86efac;
+}
+html.dark .pricing-table th:nth-child(5) { 
+  background-color: #9a3412; 
+  color: #fed7aa;
+}
+html.dark .pricing-table th:nth-child(6) { 
+  background-color: #9f1239; 
+  color: #fda4af;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .pricing-table {
+    font-size: 12px;
+    min-width: 800px;
+  }
+  
+  .pricing-table th,
+  .pricing-table td {
+    padding: 8px 4px;
+  }
+  
+  .pricing-table td:first-child,
+  .pricing-table th:first-child {
+    min-width: 150px;
+  }
+}
+
+/* Mobile card view for very small screens */
+@media (max-width: 600px) {
+  .pricing-table-wrapper {
+    display: none;
+  }
+  
+  .pricing-cards {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  .pricing-card {
+    background: var(--vp-c-bg-soft);
+    border: 1px solid var(--vp-c-border);
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card h3 {
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    background-color: var(--vp-c-bg-mute);
+    border-radius: 4px;
+    text-align: center;
+    color: var(--vp-c-text-1);
+    font-weight: 600;
+  }
+  
+  .pricing-feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--vp-c-divider);
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .pricing-feature:last-child {
+    border-bottom: none;
+  }
+  
+  .feature-name {
+    font-weight: 600;
+    flex: 1;
+    color: var(--vp-c-text-1);
+  }
+  
+  .feature-value {
+    flex: 1;
+    text-align: right;
+    color: var(--vp-c-text-2);
+    font-size: 0.9em;
+  }
+}
+
+/* Hide mobile cards on desktop */
+@media (min-width: 601px) {
+  .pricing-cards {
+    display: none;
+  }
+}
+
 /* Responsive grid for roadmap */
 @media (max-width: 768px) {
   .roadmap-grid {

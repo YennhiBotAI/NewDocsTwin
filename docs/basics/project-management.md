@@ -4,6 +4,13 @@ Hãy nghĩ về "Projects" như những thư mục riêng biệt cho từng chi�
 
 ![Projects Management](/images/projects-management.png)
 
+## Video hướng dẫn
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 61.2979%;">
+  <iframe src="https://cdn.iframe.ly/LHfDwAVv" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write *; fullscreen *;">
+  </iframe>
+</div>
+
 ## Tại sao bạn nên dùng "Projects"?
 
 • **Tổ chức**: Tập hợp tất cả các cuộc hội thoại và tài liệu liên quan đến một công việc vào cùng một nơi.
@@ -18,7 +25,7 @@ Hãy nghĩ về "Projects" như những thư mục riêng biệt cho từng chi�
 
 ### Tạo Project mới:
 
-1. Từ trang chủ Twin AI, click vào nút **"New Project"** hoặc biểu tượng **"+"** ở góc trên bên trái
+1. Từ menu chính của Twin AI, click vào nút **"Project"** sau đó chọn **"+ Tạo project"** ở góc trên bên phải
 2. Nhập tên cho Project của bạn (ví dụ: "Chiến dịch Marketing Q4", "Dự án Website ABC", v.v.)
 3. Thêm mô tả ngắn gọn về Project (tùy chọn)
 4. Chọn các thành viên team nếu đây là project cộng tác
@@ -82,19 +89,6 @@ Hãy nghĩ về "Projects" như những thư mục riêng biệt cho từng chi�
 - **Project templates**: Tạo template Project cho các loại công việc thường gặp
 - **Status tracking**: Sử dụng tên Project hoặc mô tả để theo dõi trạng thái (Draft, In Progress, Review, Completed)
 - **Handover**: Khi chuyển giao Project, đảm bảo tài liệu và context đầy đủ
-
-## Các tính năng nâng cao
-
-### Project Templates (Gói Pro+):
-- Tạo template Project với cấu trúc và tài liệu mẫu
-- Nhanh chóng tạo Project mới từ template có sẵn
-- Chuẩn hóa quy trình làm việc trong team
-
-### Project Analytics (Gói Enterprise):
-- Theo dõi hoạt động và hiệu suất của Project
-- Thống kê usage và engagement của team members
-- Insight về các pattern làm việc hiệu quả
-
 ---
 
 **Lưu ý**: Tính năng Project là nền tảng để bạn làm việc hiệu quả với Twin AI. Hãy dành thời gian thiết lập và tổ chức Projects một cách khoa học từ đầu để tối ưu hóa workflow của bạn.

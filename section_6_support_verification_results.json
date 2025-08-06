@@ -1,0 +1,39 @@
+{
+  "final_accuracy": 75.0,
+  "final_status": "⚠️ NEEDS REVIEW - ACCEPTABLE ACCURACY",
+  "sections_verified": 4,
+  "results": {
+    "Section 6 Index": {
+      "verification": {
+        "status": "POOR",
+        "accuracy": 50.0,
+        "checks_passed": 2,
+        "total_checks": 4
+      }
+    },
+    "Section 6.1 FAQs": {
+      "verification": {
+        "status": "NEEDS_REVIEW",
+        "accuracy": 75.0,
+        "checks_passed": 3,
+        "total_checks": 4
+      }
+    },
+    "Section 6.2 Support Channels": {
+      "verification": {
+        "status": "VERIFIED",
+        "accuracy": 100.0,
+        "checks_passed": 4,
+        "total_checks": 4
+      }
+    },
+    "Section 6.3 Glossary": {
+      "verification": {
+        "status": "NEEDS_REVIEW",
+        "accuracy": 75.0,
+        "checks_passed": 3,
+        "total_checks": 4
+      }
+    }
+  }
+}
