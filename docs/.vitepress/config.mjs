@@ -66,8 +66,8 @@ export default defineConfig({
           text: '2. Gói Dịch vụ và Thanh toán',
           collapsed: false,
           items: [
-            { text: '2.1. Tổng quan các Gói dịch vụ', link: '/pricing/service-packages' },
-            { text: '2.2. Hướng dẫn Thanh toán', link: '/pricing/payment-guide' }
+            { text: '2.1. Tổng quan các Gói dịch vụ', link: '/goi-dich-vu-va-thanh-toan/service-packages' },
+            { text: '2.2. Hướng dẫn Thanh toán', link: '/goi-dich-vu-va-thanh-toan/payment-guide' }
           ]
         },
         {

@@ -4,8 +4,8 @@ Twin AI cung cấp các gói dịch vụ linh hoạt, được thiết kế đ�
 
 ## Trong phần này
 
-### [2.1. Tổng quan các Gói dịch vụ](/pricing/service-packages)
+### [2.1. Tổng quan các Gói dịch vụ](/goi-dich-vu-va-thanh-toan/service-packages)
 Tìm hiểu về các gói dịch vụ và tính năng tương ứng để lựa chọn gói phù hợp nhất với nhu cầu của bạn.
 
-### [2.2. Hướng dẫn Thanh toán](/pricing/payment-guide)
+### [2.2. Hướng dẫn Thanh toán](/goi-dich-vu-va-thanh-toan/payment-guide)
 Hướng dẫn chi tiết về các phương thức thanh toán, gia hạn và quản lý thanh toán.

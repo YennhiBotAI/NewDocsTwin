@@ -28,7 +28,7 @@ Chào mừng bạn đến với trung tâm hỗ trợ Twin AI! Chúng tôi luôn
 4. **[Cuộc hội thoại đầu tiên](/basics/conversation-art)** với Twin AI
 
 ### Doanh nghiệp
-1. **[Tìm hiểu gói Enterprise](/pricing/)** 
+1. **[Tìm hiểu gói Enterprise](/goi-dich-vu-va-thanh-toan/)** 
 2. **[Setup team workspace](/teams/)**
 3. **[Quản lý projects](/teams/project-collaboration)**
 4. **[Tích hợp API](/api/getting-started)** vào hệ thống
