@@ -123,7 +123,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/twin-ai' }
+      { icon: 'github', link: 'https://github.com/BachKhoiMaoGia/NewDocsTwin' }
     ],
 
     footer: {
@@ -133,11 +133,6 @@ export default defineConfig({
 
     search: {
       provider: 'local'
-    },
-
-    editLink: {
-      pattern: 'https://github.com/twin-ai/docs/edit/main/docs/:path',
-      text: 'Chỉnh sửa trang này trên GitHub'
     },
 
     lastUpdated: {

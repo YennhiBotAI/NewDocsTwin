@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twin AI Docs Admin</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app" class="container mt-4">
+        <h1>📚 Twin AI Docs Manager</h1>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <h3>📁 File Browser</h3>
+                <div class="list-group">
+                    <button 
+                        v-for="file in files" 
+                        :key="file.path"
+                        @click="loadFile(file)"
+                        :class="['list-group-item', 'list-group-item-action', {active: currentFile?.path === file.path}]"
+                    >
+                        {{ file.name }}
+                    </button>
+                </div>
+                
+                <div class="mt-3">
+                    <button @click="createNewFile" class="btn btn-success">➕ New File</button>
+                    <button @click="validateAll" class="btn btn-warning">🔍 Validate All</button>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div v-if="currentFile">
+                    <h3>✏️ Editing: {{ currentFile.name }}</h3>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Title:</label>
+                        <input v-model="currentFile.title" class="form-control">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Content:</label>
+                        <textarea 
+                            v-model="currentFile.content" 
+                            class="form-control" 
+                            rows="20"
+                            @input="debouncePreview"
+                        ></textarea>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <button @click="saveFile" class="btn btn-primary">💾 Save</button>
+                        <button @click="previewFile" class="btn btn-info">👁️ Preview</button>
+                        <button @click="deleteFile" class="btn btn-danger">🗑️ Delete</button>
+                    </div>
+                </div>
+                
+                <div v-else class="text-center">
+                    <p>Select a file to edit</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Preview Modal -->
+        <div v-if="showPreview" class="modal d-block" style="background: rgba(0,0,0,0.5)">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>📖 Preview</h5>
+                        <button @click="showPreview = false" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div v-html="previewHtml"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp } = Vue
+        
+        createApp({
+            data() {
+                return {
+                    files: [],
+                    currentFile: null,
+                    showPreview: false,
+                    previewHtml: '',
+                    debounceTimeout: null
+                }
+            },
+            
+            mounted() {
+                this.loadFileList()
+            },
+            
+            methods: {
+                async loadFileList() {
+                    // Mock data - replace with actual API
+                    this.files = [
+                        { path: 'account/index.md', name: '1. Account Overview' },
+                        { path: 'account/registration-login.md', name: '1.1. Registration & Login' },
+                        { path: 'basics/index.md', name: '3. Basics Overview' },
+                        // ... more files
+                    ]
+                },
+                
+                async loadFile(file) {
+                    // Mock load - replace with actual API
+                    this.currentFile = {
+                        ...file,
+                        title: 'Sample Title',
+                        content: '# Sample Content\n\nThis is sample markdown content.'
+                    }
+                },
+                
+                async saveFile() {
+                    if (!this.currentFile) return
+                    
+                    // Mock save - replace with actual API
+                    console.log('Saving file:', this.currentFile)
+                    
+                    // Show success notification
+                    alert('✅ File saved successfully!')
+                },
+                
+                previewFile() {
+                    // Mock preview - replace with markdown parser
+                    this.previewHtml = `<h1>${this.currentFile.title}</h1><p>Preview of markdown content...</p>`
+                    this.showPreview = true
+                },
+                
+                debouncePreview() {
+                    clearTimeout(this.debounceTimeout)
+                    this.debounceTimeout = setTimeout(() => {
+                        // Auto-save draft
+                        console.log('Auto-saving draft...')
+                    }, 1000)
+                },
+                
+                createNewFile() {
+                    const name = prompt('Enter filename (without .md):')
+                    if (name) {
+                        this.currentFile = {
+                            path: `${name}.md`,
+                            name: name,
+                            title: name,
+                            content: `# ${name}\n\nNew content here...`
+                        }
+                    }
+                },
+                
+                async validateAll() {
+                    // Mock validation
+                    alert('🔍 Validation complete! No errors found.')
+                },
+                
+                deleteFile() {
+                    if (confirm('Are you sure you want to delete this file?')) {
+                        // Mock delete
+                        this.currentFile = null
+                        alert('🗑️ File deleted!')
+                    }
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>

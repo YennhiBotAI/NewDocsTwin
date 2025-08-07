@@ -9,7 +9,12 @@
     "docs:preview": "vitepress preview",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "content:validate": "node ../scripts/content-manager.js validate",
+    "content:format": "node ../scripts/content-manager.js format",
+    "content:sidebar": "node ../scripts/content-manager.js sidebar",
+    "watch": "node ../scripts/doc-watcher.js",
+    "admin": "cd ../admin && python -m http.server 8080"
   },
   "devDependencies": {
     "vitepress": "^1.0.0"

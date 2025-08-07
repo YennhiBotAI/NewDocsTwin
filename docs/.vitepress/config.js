@@ -40,7 +40,7 @@ export default defineConfig({
         text: '1. KHỞI TẠO VÀ QUẢN LÝ TÀI KHOẢN',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/account/' },
+          { text: 'Tổng quan - Quản lý Tài khoản', link: '/account/' },
           { text: '1.1. Đăng ký và Đăng nhập', link: '/account/registration-login' },
           { text: '1.2. Thiết lập Hồ sơ cá nhân', link: '/account/profile-setup' }
         ]
@@ -49,7 +49,7 @@ export default defineConfig({
         text: '2. GÓI DỊCH VỤ VÀ THANH TOÁN',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/goi-dich-vu-va-thanh-toan/' },
+          { text: 'Tổng quan - Gói Dịch vụ', link: '/goi-dich-vu-va-thanh-toan/' },
           { text: '2.1. Tổng quan các Gói dịch vụ', link: '/goi-dich-vu-va-thanh-toan/tong-quan-cac-goi-dich-vu' },
           { text: '2.2. Hướng dẫn Thanh toán', link: '/goi-dich-vu-va-thanh-toan/huong-dan-thanh-toan' }
         ]
@@ -58,7 +58,7 @@ export default defineConfig({
         text: '3. NỀN TẢNG (THE BASICS)',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/basics/' },
+          { text: 'Tổng quan - Nền tảng', link: '/basics/' },
           { text: '3.1. Không gian làm việc của bạn', link: '/basics/workspace' },
           { text: '3.2. Nghệ thuật Đối thoại cùng Twin AI', link: '/basics/conversation-art' },
           { text: '3.3. Quản lý công việc với "Projects"', link: '/basics/project-management' }
@@ -68,7 +68,7 @@ export default defineConfig({
         text: '4. QUẢN LÝ TEAMS CỦA BẠN',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/teams/' },
+          { text: 'Tổng quan - Quản lý Teams', link: '/teams/' },
           { text: '4.1. Quản lý Đội ngũ (Teams)', link: '/teams/team-management' },
           { text: '4.2. Cộng tác trong "Projects"', link: '/teams/project-collaboration' }
         ]
@@ -77,7 +77,7 @@ export default defineConfig({
         text: '5. DÀNH CHO NHÀ PHÁT TRIỂN',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/api/' },
+          { text: 'Tổng quan - API Documentation', link: '/api/' },
           { text: '5.1. Bắt đầu với API', link: '/api/getting-started' },
           { text: '5.2. Xác thực', link: '/api/authentication' },
           { text: '5.3. API Endpoints', link: '/api/endpoints' },
@@ -90,7 +90,7 @@ export default defineConfig({
         text: '6. TÀI NGUYÊN & HỖ TRỢ',
         collapsed: true,
         items: [
-          { text: 'Tổng quan', link: '/support/' },
+          { text: 'Tổng quan - Hỗ trợ', link: '/support/' },
           { text: '6.1. Các câu hỏi thường gặp (FAQs)', link: '/support/faqs' },
           { text: '6.2. Các kênh hỗ trợ', link: '/support/support-channels' },
           { text: '6.3. Bảng thuật ngữ', link: '/support/glossary' }
@@ -99,17 +99,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/twinai' }
+      { icon: 'github', link: 'https://github.com/BachKhoiMaoGia/NewDocsTwin' }
     ],
 
     footer: {
       message: 'Được xây dựng với ❤️ bởi Twin AI Team',
       copyright: 'Copyright © 2025 Twin AI Solution, Inc.'
-    },
-
-    editLink: {
-      pattern: 'https://github.com/twinai/docs/edit/main/docs/:path',
-      text: 'Đề xuất chỉnh sửa'
     },
 
     search: {

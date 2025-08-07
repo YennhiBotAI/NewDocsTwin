@@ -19,7 +19,7 @@ Tất cả API endpoints đều sử dụng base URL trên.
 
 Đăng ký tài khoản miễn phí trên TwinExpert để bắt đầu sử dụng API.
 
-[**Đăng ký ngay**](https://twinexpert.com/register)
+[**Đăng ký ngay**](https://twinexpert.com/auth/register)
 
 ## Bước 2: Tạo API Key
 

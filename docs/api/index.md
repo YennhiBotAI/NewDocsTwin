@@ -47,7 +47,7 @@ Twin AI API được thiết kế với các nguyên tắc REST, sử dụng HTT
 
 ### Base URL
 ```
-https://api.twinai.dev/v1
+https://api.twinexpert.com/api/v1
 ```
 
 ### Yêu cầu hệ thống
